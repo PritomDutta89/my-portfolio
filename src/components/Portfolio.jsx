@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import {
   Mail,
   Phone,
@@ -128,7 +128,7 @@ const Portfolio = () => {
               </h1>
 
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                Results-driven Software Developer with 2.6+ years of experience.
+                Results-driven Software Developer with 2.7+ years of experience.
                 ReactJS & Node.js specialist focused on creating exceptional
                 user experiences and scalable solutions.
               </p>
@@ -144,7 +144,7 @@ const Portfolio = () => {
                   href="https://drive.google.com/file/d/1iAImROAt8RS0MQfmM2TgMF4zuN2uwqvH/view?usp=sharing"
                   className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-lg font-semibold hover:border-blue-600 hover:text-blue-600 transition-colors flex items-center justify-center"
                 >
-                  <Download className="w-5 h-5 mr-2" />
+                  <Download className="w-5 h-5 mr-2"/>
                   Download CV
                 </a>
               </div>
@@ -215,7 +215,7 @@ const Portfolio = () => {
                 Passionate Frontend Developer with Full-Stack Capabilities
               </h3>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                I'm a results-driven Software Developer with 2.6 years of
+                I'm a results-driven Software Developer with 2.7 years of
                 experience, specializing in ReactJS and Node.js. I have a strong
                 passion for creating innovative solutions that enhance user
                 experiences and drive business growth.
@@ -440,7 +440,7 @@ const Portfolio = () => {
                 </p>
                 <div className="flex items-center">
                   <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">
-                    GPA: 9.41/10
+                    CGPA: 9.41/10
                   </span>
                 </div>
                 <p className="text-gray-600 mt-4">
