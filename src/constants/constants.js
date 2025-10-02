@@ -1,7 +1,7 @@
 const experiences = [
   {
     company: "Rahi Platform Technologies Pvt Ltd",
-    position: "Software Developer - Frontend Focus",
+    position: "Software Developer",
     duration: "November 2024 - Present",
     location: "Pune, Maharashtra",
     achievements: [
@@ -9,11 +9,12 @@ const experiences = [
       "Designed a JSON schema system with a custom Node.js validator using 0 external libraries, ensuring 100% data integrity.",
       "Integrated real-time web renderer, reducing configuration time by 70%, and significantly enhancing the user experience.",
       "Applied TDD principles across the full stack, boosting code quality by 80% and speeding up development by 40%.",
+      "Implemented JSON schema import/export with downloadable configs, boosting portability and cutting setup time by 60%."
     ],
   },
   {
     company: "Ayekart Fintech Pvt Ltd",
-    position: "Frontend Developer",
+    position: "Software Developer - Frontend",
     duration: "February 2024 - November 2024",
     location: "Pune, Maharashtra",
     achievements: [
@@ -24,7 +25,7 @@ const experiences = [
   },
   {
     company: "Tandemloop Technologies Pvt Ltd",
-    position: "Software Developer - Frontend Focus",
+    position: "Software Developer",
     duration: "February 2023 - January 2024",
     location: "Bengaluru, Karnataka",
     achievements: [
