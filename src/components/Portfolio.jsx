@@ -128,7 +128,7 @@ const Portfolio = () => {
               </h1>
 
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                Results-driven Software Developer with 2.7+ years of experience.
+                Results-driven Software Developer with 3 years of experience.
                 ReactJS & Node.js specialist focused on creating exceptional
                 user experiences and scalable solutions.
               </p>
@@ -215,7 +215,7 @@ const Portfolio = () => {
                 Passionate Frontend Developer with Full-Stack Capabilities
               </h3>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                I'm a results-driven Software Developer with 2.7 years of
+                I'm a results-driven Software Developer with 3 years of
                 experience, specializing in ReactJS and Node.js. I have a strong
                 passion for creating innovative solutions that enhance user
                 experiences and drive business growth.
