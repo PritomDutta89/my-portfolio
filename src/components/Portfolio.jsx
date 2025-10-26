@@ -141,7 +141,7 @@ const Portfolio = () => {
                   Get In Touch
                 </button>
                 <a
-                  href="https://drive.google.com/file/d/1Q1NCSUGylN3K70Th5kj_tzgM_MsQ2Rtw/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1ifolTM7T69ujNj309dc3uHJEOkd7NdAC/view?usp=sharing"
                   className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-lg font-semibold hover:border-blue-600 hover:text-blue-600 transition-colors flex items-center justify-center"
                 >
                   <Download className="w-5 h-5 mr-2"/>
