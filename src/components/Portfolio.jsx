@@ -144,7 +144,7 @@ const Portfolio = () => {
                   href="https://drive.google.com/file/d/1ifolTM7T69ujNj309dc3uHJEOkd7NdAC/view?usp=sharing"
                   className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-lg font-semibold hover:border-blue-600 hover:text-blue-600 transition-colors flex items-center justify-center"
                 >
-                  <Download className="w-5 h-5 mr-2"/>
+                  <Download className="w-5 h-5 mr-2" />
                   Download CV
                 </a>
               </div>
@@ -412,6 +412,96 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
+
+          <div className="bg-gradient-to-br from-green-50 to-blue-50 rounded-2xl p-8 lg:p-12 mt-[2rem]">
+            <div className="grid lg:grid-cols-2 gap-8 items-center">
+              <div className="order-2 lg:order-1 relative">
+                <div className="bg-white rounded-xl shadow-xl p-6 transform -rotate-3 hover:rotate-0 transition-transform">
+                  <div className="aspect-video bg-gradient-to-br from-blue-500 to-green-500 rounded-lg flex items-center justify-center">
+                    <div className="text-white text-2xl font-bold">
+                      🗺️ GeoMapper
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute -bottom-4 -right-4 bg-purple-400 w-16 h-16 rounded-full flex items-center justify-center shadow-lg">
+                  <span className="text-2xl">📍</span>
+                </div>
+              </div>
+
+              <div className="order-1 lg:order-2">
+                <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
+                  GeoView - Spatial Data Map Viewer
+                </h3>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  An interactive geospatial data visualization application with
+                  support for point markers and polygon layers, featuring
+                  real-time map interactions and dynamic data display.
+                </p>
+
+                <div className="space-y-4 mb-8">
+                  <div className="flex items-start">
+                    <div className="w-2 h-2 bg-green-600 rounded-full mt-2 mr-3"></div>
+                    <span className="text-gray-700">
+                      Built with React, Tailwind CSS, and Leaflet.js for
+                      interactive mapping
+                    </span>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="w-2 h-2 bg-green-600 rounded-full mt-2 mr-3"></div>
+                    <span className="text-gray-700">
+                      Implemented dual display system with on-map popups and
+                      detailed sidebar cards
+                    </span>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="w-2 h-2 bg-green-600 rounded-full mt-2 mr-3"></div>
+                    <span className="text-gray-700">
+                      Features color-coded polygon visualization with population
+                      density data
+                    </span>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="w-2 h-2 bg-green-600 rounded-full mt-2 mr-3"></div>
+                    <span className="text-gray-700">
+                      Integrated OpenStreetMap with smooth layer transitions and
+                      responsive design
+                    </span>
+                  </div>
+                </div>
+
+                <div className="flex flex-wrap gap-3 mb-6">
+                  <span className="px-3 py-1 bg-white text-gray-700 rounded-full text-sm font-medium shadow-sm">
+                    React
+                  </span>
+                  <span className="px-3 py-1 bg-white text-gray-700 rounded-full text-sm font-medium shadow-sm">
+                    Tailwind CSS
+                  </span>
+                  <span className="px-3 py-1 bg-white text-gray-700 rounded-full text-sm font-medium shadow-sm">
+                    Leaflet.js
+                  </span>
+                  <span className="px-3 py-1 bg-white text-gray-700 rounded-full text-sm font-medium shadow-sm">
+                    OpenStreetMap
+                  </span>
+                  <span className="px-3 py-1 bg-white text-gray-700 rounded-full text-sm font-medium shadow-sm">
+                    GeoJSON
+                  </span>
+                  <span className="px-3 py-1 bg-white text-gray-700 rounded-full text-sm font-medium shadow-sm">
+                    Lucide Icons
+                  </span>
+                </div>
+
+                <a
+                  href="https://github.com/PritomDutta89/GeoView"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors"
+                >
+                  <ExternalLink className="w-5 h-5 mr-2" />
+                  View Project
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -440,7 +530,7 @@ const Portfolio = () => {
                 </p>
                 <div className="flex items-center">
                   <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">
-                    CGPA: 9.41/10
+                    CGPA: 9.41
                   </span>
                 </div>
                 <p className="text-gray-600 mt-4">
